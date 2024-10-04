@@ -9,6 +9,7 @@
     "dev": "nodemon",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  
   "author": "athenas-team",
   "license": "ISC",
   "dependencies": {
