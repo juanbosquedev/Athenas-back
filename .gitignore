@@ -1,0 +1,20 @@
+# Directorios
+node_modules/
+dist/
+
+# Archivos de configuración
+.env
+
+# Archivo de logs
+*.log
+
+# Archivos generados por el sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de dependencias de Node.js
+package-lock.json
+
+
+# TypeScript cache
+*.tsbuildinfo
