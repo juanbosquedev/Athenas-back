@@ -17,16 +17,3 @@
     "include": ["src/**/*.ts"],                  // Include all .ts files in the src folder
     "exclude": ["node_modules", "dist"]          // Exclude node_modules and dist folders
   }
-  
-// {
-//     "compilerOptions": {
-//         "module": "NodeNext",
-//         "moduleResolution": "Node",
-//         "baseUrl": "src",
-//         "outDir": "dist",
-//         "sourceMap": true,
-//         "noImplicitOverride": true
-//     },
-//     "include": ["src/**/*"],
-//     "exclude": ["node_modules"]
-// }
