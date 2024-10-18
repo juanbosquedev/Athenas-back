@@ -1,6 +1,7 @@
 import mongoose from 'mongoose';
 import { uri } from '../config/config';
 
+
 if (!uri) {
   throw new Error("MongoDB connection URI is not defined in the environment variables.");
 }
