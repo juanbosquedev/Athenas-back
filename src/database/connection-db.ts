@@ -10,7 +10,6 @@ const client = mongoose.createConnection(uri, {
     version: '1',
     strict: true,
     deprecationErrors: true,
-  },
-});
+  },});
 
 export default client;
