@@ -1,16 +1,11 @@
-import mongoose from 'mongoose';
-import { uri } from '../config/config';
+const { MongoClient, ServerApiVersion } = require('mongodb');
+import { uri } from "../config/config";
 
-if (!uri) {
-  throw new Error("MongoDB connection URI is not defined in the environment variables.");
-}
-
-const client = mongoose.createConnection(uri, {
+const client = new MongoClient(uri, {
   serverApi: {
-    version: '1',
+    version: ServerApiVersion.v1,
     strict: true,
     deprecationErrors: true,
-  },
-});
+  },});
 
 export default client;
