@@ -13,7 +13,6 @@ async function run() {
     server.listen(server_port, () => {
       console.log(`Server listening on port ${server_port}`);
     });
-    
   } catch (error) {
     console.error("Failed to connect to MongoDB", error);
   }
