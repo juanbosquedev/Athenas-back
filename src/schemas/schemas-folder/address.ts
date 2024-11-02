@@ -5,7 +5,8 @@ const addressSchema = new mongoose.Schema({
     country: { type: String, required: true },
     city: { type: String, required: true },
     zipCode: { type: String, required: true },
-    additionalInfo: { type: String }
+    additionalInfo: { type: String },
+    default:{type: Boolean},
 });
 
 export default addressSchema;
