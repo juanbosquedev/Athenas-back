@@ -1,0 +1,17 @@
+[
+    {
+        "id": 1,
+        "name": "Ropa",
+        "color": "#FF5733"
+    },
+    {
+        "id": 2,
+        "name": "Deportes",
+        "color": "#33C1FF"
+    },
+    {
+        "id": 3,
+        "name": "Accesorios",
+        "color": "#FF33A2"
+    }
+]

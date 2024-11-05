@@ -1,0 +1,222 @@
+[
+    {
+        "id": 1,
+        "name": "Camiseta de fútbol Hombre",
+        "description": "Camiseta oficial del Athenas Club para hombres",
+        "price": "$15000",
+        "image": "https://www.thefutbolstore.com.ar/uploads/v2/product/hi/202005_800_A.jpg",
+        "stock":20,
+        "category": "Ropa",
+        "isPopular": true,
+        "isNew": false
+    },
+    {
+        "id": 2,
+        "name": "Camiseta de fútbol Mujer",
+        "description": "Camiseta oficial del Athenas Club para mujeres",
+        "price": "$15000",
+        "image": "https://www.thefutbolstore.com.ar/uploads/v2/product/hi/202005_800_A.jpg",
+        "stock":20,
+        "category": "Ropa",
+        "isPopular": true,
+        "isNew": true
+    },
+    {
+        "id": 3,
+        "name": "Pelota de baloncesto",
+        "description": "Pelota de baloncesto oficial",
+        "price": "$20000",
+        "image": "https://www.canteprijuguetes.com.ar/nueva/wp-content/uploads/2021/02/images-74.jpg",
+        "stock":20,
+        "category": "Deportes",
+        "isPopular": false,
+        "isNew": true
+    },
+    {
+        "id": 4,
+        "name": "Gorra del club Hombre",
+        "description": "Gorra con el logo del Athenas Club para hombres",
+        "price": "$4000",
+        "image": "https://http2.mlstatic.com/D_NQ_NP_761342-MLA52002690385_102022-O.webp",
+        "stock":20,
+        "category": "Accesorios",
+        "isPopular": true,
+        "isNew": false
+    },
+    {
+        "id": 5,
+        "name": "Llavero de Athenas Club",
+        "description": "Llavero de metal con el logo del Athenas Club",
+        "price": "$1000",
+        "image": "https://d22fxaf9t8d39k.cloudfront.net/ce03934c71aa9c3d1d98a4a752b257c29c7d5a9c5a6aac5139a59e6d0435ef6839546.png",
+        "stock":20,
+        "category": "Accesorios",
+        "isPopular": true,
+        "isNew": true
+    },
+    {
+        "id": 6,
+        "name": "Musculosa de Athenas Club",
+        "description": "Taza oficial del Athenas Club para bebidas calientes",
+        "price": "$2000",
+        "image": "https://dcdn.mitiendanube.com/stores/003/596/951/products/atenas2-91521acc8d0099deac17138957463469-1024-1024.webp",
+        "stock":20,
+        "category": "Accesorios",
+        "isPopular": false,
+        "isNew": true
+    },
+    {
+        "id": 7,
+        "name": "Bufanda de invierno",
+        "description": "Bufanda oficial de Athenas Club",
+        "price": "$7000",
+        "image": "https://www.basicosfox.com/datos/uploads/mod_catalogo/22541/9221-violeta-9-5af62046d3b0e.jpg",
+        "stock":20,
+        "category": "Ropa",
+        "isPopular": true,
+        "isNew": false
+    },
+    {
+        "id": 8,
+        "name": "Pelota de fútbol",
+        "description": "Pelota de fútbol oficial",
+        "price": "$18000",
+        "image": "https://img.freepik.com/vector-gratis/vector-aislado-balon-futbol-realista-sobre-blanco_1284-41932.jpg?w=360",
+        "stock":20,
+        "category": "Deportes",
+        "isPopular": true,
+        "isNew": false
+    },
+    {
+        "id": 9,
+        "name": "Pin de Athenas Club",
+        "description": "Pin oficial del Athenas Club para coleccionistas",
+        "price": "$500",
+        "image": "https://http2.mlstatic.com/D_NQ_NP_962267-MLU71305120748_082023-O.webp",
+        "stock":20,
+        "category": "Accesorios",
+        "isPopular": false,
+        "isNew": true
+    },
+    {
+        "id": 10,
+        "name": "Set de entrenamiento",
+        "description": "Set completo de entrenamiento para futbolistas",
+        "price": "$30000",
+        "image": "https://http2.mlstatic.com/D_NQ_NP_670453-MLA78136870687_082024-O.webp",
+        "stock":20,
+        "category": "Deportes",
+        "isPopular": true,
+        "isNew": true
+    },
+    {
+        "id": 11,
+        "name": "Camiseta de entrenamiento",
+        "description": "Camiseta de entrenamiento",
+        "price": "$12000",
+        "image": "https://botiga.gironafc.cat/wp-content/uploads/2021/07/roba-2021_22_01_1000x1000_redy_01.jpg",
+        "stock":5,
+        "category": "Ropa",
+        "isPopular": true,
+        "isNew": true
+    },
+    {
+        "id": 12,
+        "name": "Botines de fútbol",
+        "description": "Botines de fútbol para hombres",
+        "price": "$25000",
+        "image": "https://http2.mlstatic.com/D_NQ_NP_812357-MLA73665561907_122023-O.webp",
+        "stock":8,
+        "category": "Ropa",
+        "isPopular": true,
+        "isNew": true
+    },
+    {
+        "id": 13,
+        "name": "Short de Athenas",
+        "description": "Short de Athenas",
+        "price": "$25000",
+        "image": "https://mc3.com.ar/Files/somefiles/461_74.png",
+        "stock":30,
+        "category": "Ropa",
+        "isPopular": true,
+        "isNew": true
+    },
+    {
+        "id": 14,
+        "name": "Botella de agua",
+        "description": "Botella de agua reutilizable de Athenas Club",
+        "price": "$5000",
+        "image": "https://promofabrica.com.ar/wp-content/uploads/2020/08/c.jpg",
+        "stock":20,
+        "category": "Accesorios",
+        "isPopular": false,
+        "isNew": true
+    },
+    {
+        "id": 15,
+        "name": "Camiseta de fútbol Hombre",
+        "description": "Camiseta oficial del Athenas Club para hombres",
+        "price": "$15000",
+        "image": "https://www.thefutbolstore.com.ar/uploads/v2/product/hi/202005_800_A.jpg",
+        "stock":20,
+        "category": "Ropa",
+        "isPopular": true,
+        "isNew": false
+    },
+    {
+        "id": 16,
+        "name": "Campera rompe viento",
+        "description": "Chaqueta abrigada para invierno",
+        "price": "$22000",
+        "image": "https://mc3.com.ar/Files/somefiles/426_Dise%C3%B1o%20sin%20t%C3%ADtulo%20-%202024-01-24T185149.335.png",
+        "stock":10,
+        "category": "Ropa",
+        "isPopular": false,
+        "isNew": false
+    },
+    {
+        "id": 17,
+        "name": "Bolsa de deporte",
+        "description": "Bolsa para transportar equipamiento deportivo",
+        "price": "$8000",
+        "image": "https://click1.mercadolibre.com.ar/mclics/clicks/external/MLA/count?a=XXe0N2YWGO%2B7bhEMTY2gqixxlIcQKU2i0siz%2Ff0l%2FHyIb873b8sYy%2FdCudyZNdYT491MDFteNOEQEBTR7ARWuUgkvmIj25sX76MAzq86yStA%2BCh3R%2B%2BBWEFPMx88lXoscjk4lKWtzVqKbpuE%2FI9L%2FvgBXHUGoGpb0WY5Vdqk5C3UV2R8BydhVrKk9oIr2lca2uhO97gPatO%2Ftqjm6niBpVsiEJDUaQ4ne3GxgmGGVo%2Bri8odNhlkwstjvteEWPrHUy7qP%2B3XqgyBFg8HCttyy%2F0UFlMdErRDFoD%2BILzBmhXolXKIKKHNaNV6Vzg0Hvri9WOFRt2mxAl11nFoE5E3bLSSa6AvzMzZVmtJgOrvJKHGl9DdOphWmToH6cLHtZbGDT71qWzHsYl17V5DpbWpsgyfwoZXWWW8ruSN6kqN04kuWeRIPI0atqWNWmnPYPYat2SSCZphTjujBwhg0quZo7zJITF5illW%2Fp6r8NOdinhKEhqhNAtQVyroo6zIaGaOB54QkCiRYGQyPFU94UFLnv68419C6dhEbHPMjNSuwtKhN6ZAadivQMPcC1HCnbk8MCvBfgcOmUZb7h3A36wLRR5OsrGwDB0EJjmQBzi%2BJG4PIg4Opk3b%2FraN3E1qHZapEX2qk4evr9O45NDPwQtWPPNJLyyVEKuY3JH4DmpF9hyEnuk433oAT01P5g4JE4E8OwVgj1XuaWl5taL1PjawoSfvTIIelUBSCJYz4IduoR3hFUx9YXqgzMvpLCv%2FFvSgUOgZOcsVQFNaZdix3ffkjFMWlE%2BJlOUTID4aEd8uCPNQwkSYOdgTuAyuwioZZWwbMK%2BTrkWgoyQJ4d15Y8qI5x%2B3z0E%3D&e=mclics%2Fvariant-candidates%2B31710%2Cmclics%2Fadvertising-results-augmenter-on%2B15098%2Cmclics%2Fshow-pads-search-lst%2B27043%2Cmclics%2Fsplit-pricer%2B49184%2Cmclics%2Fmax-bid-capped%2B36382%2Cmclics%2Fbuybox-redefinition%2B56869%2Cmclics%2Fmax-bid-item-factor%2B23927%2Cmclics%2Fsearch-btr-scoring%2B43301%2Cmclics%2Fmin-budget-throttling%2B54896%2Cmclics%2Fdiscard-bid-lt-min%2B45363%2Cmclics%2Fshow-pads-global-logged-shadow%2B31033%2Cmclics%2Fdummy-search-experiment%2B29111%2Cmclics%2Fsearch-unified-viewmode%2B53350%2Cmclics%2Fbuybox-item-query-same-positions%2B58796%2Cmclics%2Foverride-min-seasonality%2B49092&rb=x#polycard_client=search-nordic&wid=MLA1634039730&sid=search",
+        "stock":14,
+        "category": "Accesorios",
+        "isPopular": false,
+        "isNew": true
+    },
+    {
+        "id": 18,
+        "name": "Buzo con capucha",
+        "description": "Buzo con capucha",
+        "price": "$6000",
+        "image": "https://newsport.vtexassets.com/arquivos/ids/19119856-800-auto?v=638555258502670000&width=800&height=auto&aspect=true",
+        "stock":16,
+        "category": "Accesorios",
+        "isPopular": false,
+        "isNew": true
+    },
+    {
+        "id": 19,
+        "name": "Medias de entrenamiento",
+        "description": "Medias de entrenamiento para futbolistas",
+        "price": "$30000",
+        "image": "https://www.olymphus.cl/wp-content/uploads/2019/08/MEDIA-ATENAS-AZULINO-1000X1000.jpg",
+        "stock":20,
+        "category": "Deportes",
+        "isPopular": true,
+        "isNew": true
+    },
+    {
+        "id": 23,
+        "name": "Taza de Athenas Club",
+        "description": "Taza oficial del Athenas Club",
+        "price": "$2000",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzroVzT728YKDk0t8r-izeUyNFP89sYj0cbnm_FxwD0g&s",
+        "stock":20,
+        "category": "Accesorios",
+        "isPopular": false,
+        "isNew": true
+    }
+]
