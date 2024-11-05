@@ -1,0 +1,57 @@
+[
+    {
+      "name": "Juan Perez",
+      "email": "juan.perez@example.com",
+      "password": "securePassword123",
+      "addresses": [],
+      "orders": [],
+      "favoriteProducts": [],
+      "reviews": []
+    },
+    {
+      "name": "Maria Lopez",
+      "email": "maria.lopez@example.com",
+      "password": "securePassword456",
+      "addresses": [],
+      "orders": [],
+      "favoriteProducts": [],
+      "reviews": []
+    },
+    {
+      "name": "Carlos Garcia",
+      "email": "carlos.garcia@example.com",
+      "password": "securePassword789",
+      "addresses": [],
+      "orders": [],
+      "favoriteProducts": [],
+      "reviews": []
+    },
+    {
+      "name": "Ana Rodriguez",
+      "email": "ana.rodriguez@example.com",
+      "password": "securePassword101",
+      "addresses": [],
+      "orders": [],
+      "favoriteProducts": [],
+      "reviews": []
+    },
+    {
+      "name": "Luis Martinez",
+      "email": "luis.martinez@example.com",
+      "password": "securePassword202",
+      "addresses": [],
+      "orders": [],
+      "favoriteProducts": [],
+      "reviews": []
+    },
+    {
+      "name": "Laura Fernandez",
+      "email": "laura.fernandez@example.com",
+      "password": "securePassword303",
+      "addresses": [],
+      "orders": [],
+      "favoriteProducts": [],
+      "reviews": []
+    }
+  ]
+  
