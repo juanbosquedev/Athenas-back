@@ -1,6 +1,7 @@
-import mongoose from "mongoose";
+import mongoose, { Schema } from "mongoose";
+import type { UserDocument } from "../interfaces/user-interfaces";
 
-const userSchema = new mongoose.Schema({
+const userSchema = new Schema<UserDocument>({
   name: { type: String, required: true },
   email: { type: String, required: true, unique: true },
   password: { type: String, required: true },
@@ -11,7 +12,6 @@ const userSchema = new mongoose.Schema({
 });
 
 export default userSchema;
-
 
 
 
