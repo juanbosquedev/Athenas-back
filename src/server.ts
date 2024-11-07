@@ -9,7 +9,7 @@ server.use(express.json());
 
 server.use(corsHandler);
 
-server.use(router)
+server.use(router);
 
 server.use("*", (err: Error, req: Request, res: Response, next: NextFunction) => {
 	res.status(404).send("Path Not Found");

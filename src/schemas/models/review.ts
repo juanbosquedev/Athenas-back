@@ -1,6 +1,7 @@
-import mongoose from "mongoose";
+import mongoose, { Schema } from "mongoose";
+import type { ReviewDocument } from "../interfaces/review-interfaces";
 
-const reviewSchema = new mongoose.Schema({
+const reviewSchema = new Schema<ReviewDocument>({
 	user: { type: mongoose.Schema.Types.ObjectId, ref: "User", required: true },
 	product: {
 		type: mongoose.Schema.Types.ObjectId,

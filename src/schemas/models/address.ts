@@ -1,6 +1,7 @@
-import mongoose from "mongoose";
+import { Schema } from "mongoose";
+import type { AddressDocument } from "../interfaces/address-interfaces";
 
-const addressSchema = new mongoose.Schema({
+const addressSchema = new Schema<AddressDocument>({
 	street: { type: String, required: true },
 	country: { type: String, required: true },
 	city: { type: String, required: true },
