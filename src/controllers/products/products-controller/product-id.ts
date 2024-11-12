@@ -11,7 +11,7 @@ async function getProductById(req: Request, res: Response): Promise<void> {
             return;
         }
 
-        const product = await Product.findById(id).populate("category");
+        const product = await Product.findById(id).populate("category").populate("reviews");;
 
         if (!product) {
             res.status(404).json({ error: "Product not found" });

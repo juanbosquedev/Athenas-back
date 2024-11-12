@@ -1,12 +1,15 @@
 import { Router } from "express";
 import { allProducts, createProduct, getProductById, deleteProductById, updateProduct } from "../../controllers/products/index";
+import { createReview, getReviewsByProduct } from "../../controllers/reviews/index";
+const router = Router();
 
-const route = Router();
+router.get("/", allProducts);
+router.get("/:id", getProductById);
+router.post("/", createProduct);
+router.patch("/:id", updateProduct);
+router.delete("/:id", deleteProductById);
 
-route.get("/", allProducts);
-route.get("/:id", getProductById);
-route.post("/", createProduct);
-route.patch("/:id", updateProduct);
-route.delete("/:id", deleteProductById);
+router.get("/:productId/reviews", getReviewsByProduct);
+router.post("/:productId/reviews", createReview);
 
-export default route;
+export default router;
