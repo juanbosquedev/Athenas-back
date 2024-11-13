@@ -1,5 +1,5 @@
 import type { Request, Response } from "express";
-import { User } from "../../../schemas/index";
+import { User } from "../../../../schemas/index";
 
 export async function removeFavoriteProduct(req: Request, res: Response): Promise<void> {
     try {
