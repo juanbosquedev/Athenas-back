@@ -3,5 +3,15 @@ import { createUser } from "./users-controller/create-user";
 import { getUserById } from "./users-controller/usesr-id";
 import { deleteUser } from "./users-controller/delete-user";
 import { updateUser } from "./users-controller/update-user";
+import { addFavoriteProduct } from "./users-controller/add-favorite-product";
+import { removeFavoriteProduct } from "./users-controller/remove-favorite-product";
 
-export { getAllUsers, createUser, getUserById, deleteUser, updateUser };
+export {
+    getAllUsers,
+    createUser,
+    getUserById,
+    deleteUser,
+    updateUser,
+    addFavoriteProduct,
+    removeFavoriteProduct
+};
