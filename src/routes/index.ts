@@ -4,8 +4,6 @@ import productsRouter from './product-router/index';
 import reviewRouter from "./review-router/index"
 import categoryRouter from "./category-router/index"
 
-
-
 const router = Router();
 
 router.use('/users', userRouter);
