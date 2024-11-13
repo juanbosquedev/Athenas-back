@@ -1,5 +1,5 @@
 import type { Request, Response } from "express";
-import { Review, Product } from "../../../schemas/index";
+import { Review, Product, User } from "../../../schemas/index";
 import type mongoose from "mongoose";
 
 async function createReview(req: Request, res: Response): Promise<void> {
@@ -25,16 +25,22 @@ async function createReview(req: Request, res: Response): Promise<void> {
             rating,
             comment,
         });
-
         await review.save();
 
         product.reviews.push(review._id as mongoose.Types.ObjectId);
         await product.save();
 
+        const userDocument = await User.findById(user);
+        if (userDocument) {
+            userDocument.reviews.push(review._id as mongoose.Types.ObjectId);
+            await userDocument.save();
+        }
+
         res.status(201).json(review);
     } catch (error) {
+        console.error("Error creating review:", error);
         res.status(500).json({ error: "Error creating review" });
     }
-};
+}
 
 export { createReview };
