@@ -1,7 +1,7 @@
 import type { Request, Response } from "express";
 import { User } from "../../../../schemas/index";
 
-export async function addFavoriteProduct(req: Request, res: Response): Promise<void> {
+async function addFavoriteProduct(req: Request, res: Response): Promise<void> {
     try {
         const { userId } = req.params;
         const { productId } = req.body;
@@ -35,3 +35,5 @@ export async function addFavoriteProduct(req: Request, res: Response): Promise<v
         res.status(500).json({ error: "Failed to add favorite products" });
     }
 }
+
+export { addFavoriteProduct };

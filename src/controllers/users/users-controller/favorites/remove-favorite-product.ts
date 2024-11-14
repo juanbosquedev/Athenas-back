@@ -1,7 +1,7 @@
 import type { Request, Response } from "express";
 import { User } from "../../../../schemas/index";
 
-export async function removeFavoriteProduct(req: Request, res: Response): Promise<void> {
+async function removeFavoriteProduct(req: Request, res: Response): Promise<void> {
     try {
         const { userId } = req.params;
         const { productId } = req.body;
@@ -42,3 +42,5 @@ export async function removeFavoriteProduct(req: Request, res: Response): Promis
         res.status(500).json({ error: "Failed to remove favorite products", details: error.message || error });
     }
 }
+
+export { removeFavoriteProduct }

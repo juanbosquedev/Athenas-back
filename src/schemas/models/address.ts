@@ -7,7 +7,7 @@ const addressSchema = new Schema<AddressDocument>({
 	city: { type: String, required: true },
 	zipCode: { type: String, required: true },
 	additionalInfo: { type: String },
-	default: { type: Boolean },
+	default: { type: Boolean, default: false },
 });
 
 export default addressSchema;
