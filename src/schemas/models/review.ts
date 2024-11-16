@@ -1,5 +1,5 @@
 import mongoose, { Schema } from "mongoose";
-import type { ReviewDocument } from "../interfaces/review-interfaces";
+import type { ReviewDocument } from "../../interfaces/models/review-interfaces";
 
 const reviewSchema = new Schema<ReviewDocument>({
 	user: { type: mongoose.Schema.Types.ObjectId, ref: "User", required: true },

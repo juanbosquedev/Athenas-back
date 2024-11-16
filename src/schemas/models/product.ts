@@ -1,5 +1,5 @@
 import { Schema } from "mongoose";
-import type { ProductDocument } from "../interfaces/product-interfaces";
+import type { ProductDocument } from "../../interfaces/models/product-interfaces";
 
 const productSchema = new Schema<ProductDocument>({
   name: { type: String, required: true },
