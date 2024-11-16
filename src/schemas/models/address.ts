@@ -1,5 +1,5 @@
 import { Schema } from "mongoose";
-import type { AddressDocument } from "../interfaces/address-interfaces";
+import type { AddressDocument } from "../../interfaces/models/address-interfaces";
 
 const addressSchema = new Schema<AddressDocument>({
 	street: { type: String, required: true },
