@@ -4,6 +4,8 @@ import productsRouter from './product-router/index';
 import reviewRouter from "./review-router/index"
 import categoryRouter from "./category-router/index"
 import addressRouter from "./address-router/index"
+import orderRouter from "./order-router/index"
+
 
 
 const router = Router();
@@ -13,6 +15,8 @@ router.use('/products', productsRouter);
 router.use('/reviews', reviewRouter);
 router.use('/categories', categoryRouter);
 router.use('/addresses', addressRouter);
+router.use('/orders', orderRouter);
+
 
 
 export default router; 
